@@ -64,11 +64,11 @@ The following tools are used for simulation and motion planning:
 
 
 
-## Working
+## 3. Working
 
-- The ROS 2-based humble pick and place robot utilizes the ROS 2 framework for communication and coordination between its components.
+- The ROS2 based humble pick and place robot utilizes the ROS2 framework for communication and coordination between its components.
 - It employs object detection algorithms to identify objects in its environment, enabling it to perceive and interact with its surroundings.
-- The robot's perception module integrates with ROS 2's sensor_msgs to receive data from cameras or other sensors, and uses image processing techniques to detect objects.
-- Once an object is detected, the robot's planning module utilizes ROS 2's navigation and manipulation capabilities to determine an optimal pick and place trajectory.
-- The robot's control module leverages ROS 2's control_msgs to send commands to its actuators, enabling precise and coordinated movement during pick and place operations.
-Overall, the ROS 2-based humble pick and place robot with object detection demonstrates the power and flexibility of ROS 2 in enabling advanced perception, planning, and control capabilities for robotic systems.
+- The robot's perception module integrates with ROS2's sensor_msgs to receive data from cameras or other sensors, and uses image processing techniques to detect objects.
+- Once an object is detected, the robot's planning module utilizes ROS2's navigation and manipulation capabilities to determine an optimal pick and place trajectory.
+- The robot's control module leverages ROS2's control_msgs to send commands to its actuators, enabling precise and coordinated movement during pick and place operations.
+Overall, the ROS2 based humble pick and place robot with object detection demonstrates the power and flexibility of ROS2 in enabling advanced perception, planning, and control capabilities for robotic systems.
