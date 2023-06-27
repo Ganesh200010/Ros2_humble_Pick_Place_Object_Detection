@@ -8,3 +8,8 @@ Pick-and-place is a common robotic task where a robot arm picks up an object fro
 # Object Detection
 
 Object detection is the process of identifying and locating objects within an image or a point cloud. ROS2 provides several packages and libraries that can be used for object detection tasks
+
+
+
+# 💻 Used Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
