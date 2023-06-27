@@ -14,8 +14,10 @@ ROS2 (Robot Operating System 2) is a flexible framework for developing robotic s
 # 1.1 Pick & Place
 Pick-and-place is a common robotic task where a robot arm picks up an object from one location and places it in another. The arm's movement can be controlled using inverse kinematics, which involves calculating the joint angles required to achieve a desired end-effector position
 
+
 <img width="50%" src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/447fcb4f-bd8e-4d32-b8f6-7ee6f39b5172"/>
 <img width="35%" src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/2a1bc3cf-2a11-4ec5-9e6a-193e454f1d26"/>
+
 </p>
 
 
