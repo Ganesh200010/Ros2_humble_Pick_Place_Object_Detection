@@ -41,24 +41,24 @@ The following tools are used for simulation and motion planning:
 # ⚙️ Commands 2 Implement
 
     
-- Instructing the system to change the current directory to "robotic_ws," assuming that directory exists in the current location.
+- Instructing the system to change the current directory to <code>"robotic_ws,"</code> assuming that directory exists in the current location.
         
         cd robotic_ws/
 
-- The command "cd src" to change the current directory to a directory named "src" within the current working directory.
+- The command "cd src" to change the current directory to a directory named <code>"src"</code> within the current working directory.
         
         cd src
 
--  Building and installs it with symbolic links (Colcon)..
+-  Building and installs it with symbolic links <code>(Colcon)</code>.
         
         colcon build --packages-select articubot_one --symlink-instal
 
 
-- You can do changes in [robot_core.xacro](url) file as per your requirements.
+- You can do changes in <code>robot_core.xacro</code> file as per your requirements.
 
 
    
-- Code "ros2 launch articubot_one rsp.launch.py" is used to launch a ROS2 launch file named "rsp.launch.py" within the "articubot_one" package. The launch file is responsible for starting the necessary nodes and configurations for the "articubot_one" robot.
+- Code <code>"ros2 launch articubot_one rsp.launch.py"</code> is used to launch a ROS2 launch file named <code>"rsp.launch.py"</code> within the <code>"articubot_one"</code> package. The launch file is responsible for starting the necessary nodes and configurations for the <code>"articubot_one"</code> robot.
   
       ros2 launch articubot_one rsp.launch.py 
 
