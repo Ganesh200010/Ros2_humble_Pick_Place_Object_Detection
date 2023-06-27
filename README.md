@@ -1,10 +1,17 @@
-# Ros2_humble
-ROS2 (Robot Operating System 2) is a flexible framework for developing robotic systems. It provides a set of tools, libraries, and conventions that aid in building robot applications. ROS2 is designed to be more scalable, distributed, and real-time capable compared to its predecessor, ROS.
+<p align="left">
 
+<img src="https://img.shields.io/badge/Ubuntu-22.04-orange.svg" alt="Ubuntu 22.04">
+<img src="https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white">
+
+</p>
+
+# Ros2_humble
+
+ROS2 (Robot Operating System 2) is a flexible framework for developing robotic systems. It provides a set of tools, libraries, and conventions that aid in building robot applications. ROS2 is designed to be more scalable, distributed, and real-time capable compared to its predecessor, ROS.
 
 <p align="left">
   
-# Pick & Place
+# 1.1 Pick & Place
 Pick-and-place is a common robotic task where a robot arm picks up an object from one location and places it in another. The arm's movement can be controlled using inverse kinematics, which involves calculating the joint angles required to achieve a desired end-effector position
 
 <img width="50%" src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/447fcb4f-bd8e-4d32-b8f6-7ee6f39b5172"/>
@@ -12,28 +19,26 @@ Pick-and-place is a common robotic task where a robot arm picks up an object fro
 </p>
 
 
-
-
-# Object Detection
+# 1.2 Object Detection
 
 Object detection is the process of identifying and locating objects within an image or a point cloud. ROS2 provides several packages and libraries that can be used for object detection tasks
 
-# 💻 Used Stack:
+-	Ensure proper sensor calibration to achieve accurate object detection results.
 
-<p align="left">
+# 2. Environment Setup
+   
+The project uses [ROS2 Humble](https://docs.ros.org/en/humble/index.html) running on [Ubuntu 22.04.2 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy/)
 
-<img  alt="python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
-<img  alt="Ubuntu" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+The following tools are used for simulation and motion planning:
 
-</p>
-
-
+- [Gazebo](https://gazebosim.org/home): A physics-based 3D simulator extensively used in the robotics world.
+- [RViz](http://wiki.ros.org/rviz): A 3D visualizer for sensor data analysis and robot state visualization.
 
 
 # ⚙️ Commands 2 Implement
 
     
-## empty
+## 
         
-        GPIO.output(eda,GPIO.LOW)
+        G
 
