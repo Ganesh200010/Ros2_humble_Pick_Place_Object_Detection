@@ -24,6 +24,8 @@ Object detection is the process of identifying and locating objects within an im
 
 -	Ensure proper sensor calibration to achieve accurate object detection results.
 
+<img src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/6a6360ac-386e-41fe-959f-27148435774c"/>
+
 # 2. Environment Setup
    
 The project uses [ROS2 Humble](https://docs.ros.org/en/humble/index.html) running on [Ubuntu 22.04.2 LTS (Jammy Jellyfish)](https://releases.ubuntu.com/jammy/)
@@ -76,6 +78,9 @@ The following tools are used for simulation and motion planning:
         cd ros2_ws
         install/setup.bash
         ros2 launch my_doosan_pkg my_doosan_rviz.launch.py
+- For motion planning
+          
+       ros2 launch my_doosan_pkg my_doosan_gazebo_controller.launch.py
 
 - ****Yolo****
 
@@ -88,7 +93,7 @@ The following tools are used for simulation and motion planning:
       source yolobot/install/setup.bash
       ros2 topic list
       ros2 topic echo /Yolov8_Inference
-- Floowing with <code>RVIz</code>
+- Following with <code>RVIz</code>
 
       rviz2
 
