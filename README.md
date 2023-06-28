@@ -32,8 +32,6 @@ Object detection is the process of identifying and locating objects within an im
 </P>
 
 
-<img src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/6a6360ac-386e-41fe-959f-27148435774c"/>
-
 
 # 2. Environment Setup
    
