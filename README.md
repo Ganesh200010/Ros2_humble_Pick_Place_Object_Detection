@@ -25,6 +25,8 @@ Object detection is the process of identifying and locating objects within an im
 -	Ensure proper sensor calibration to achieve accurate object detection results.
 
 <img src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/6a6360ac-386e-41fe-959f-27148435774c"/>
+<img src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/863533a3-232c-43fc-b085-38a023c181f2"/>
+
 
 # 2. Environment Setup
    
