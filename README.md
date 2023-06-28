@@ -2,6 +2,7 @@
 
 <img src="https://img.shields.io/badge/Ubuntu-22.04-orange.svg" alt="Ubuntu 22.04">
 <img src="https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/YOLO-v5-darkgreen?style=flat-square&logo=github&logoColor=white">
 
 </p>
 
@@ -14,12 +15,7 @@ ROS2 (Robot Operating System 2) is a flexible framework for developing robotic s
 # 1.1 Pick & Place
 Pick-and-place is a common robotic task where a robot arm picks up an object from one location and places it in another. The arm's movement can be controlled using inverse kinematics, which involves calculating the joint angles required to achieve a desired end-effector position
 
-<p align="left">
 
-<img width="50%" src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/447fcb4f-bd8e-4d32-b8f6-7ee6f39b5172"/>
-<img width="35%" src="https://github.com/Ganesh200010/Ros2_humble_Pick_Place_Object_Detection/assets/125490197/2a1bc3cf-2a11-4ec5-9e6a-193e454f1d26"/>
-
-</p>
 
 
 # 1.2 Object Detection
@@ -41,9 +37,9 @@ The following tools are used for simulation and motion planning:
 # ⚙️ Commands 2 Implement
 
     
-- Instructing the system to change the current directory to <code>"robotic_ws,"</code> assuming that directory exists in the current location.
+-  Create a directory structure as <code>ros2_ws/</code>.
         
-        cd robotic_ws/
+        mkdir -p ros2_ ws
 
 - The command "cd src" to change the current directory to a directory named <code>"src"</code> within the current working directory.
         
@@ -51,16 +47,55 @@ The following tools are used for simulation and motion planning:
 
 -  Building and installs it with symbolic links <code>(Colcon)</code>.
         
-        colcon build --packages-select articubot_one --symlink-instal
+        colcon build --packages-select ros2_ws/ --symlink-instal
+
+- Install some dependencies and necessary packages:
+
+      sudo apt instal/ python3-vcstoo/
+      sudo apt instal/ ros-humble-test-msgs
+      sudo apt instal/ ros-humble-contro/-too/box
+      sudo apt instal/ ros-humble-gazebo-ros-pkgs 
+      sudo apt instal/ ros-humble-xacro
+      sudo apt instal/ ros-humble-joint-state-publisher-gui        
 
 
-- You can do changes in <code>robot_core.xacro</code> file as per your requirements.
+- **Then you need to download and build in your workspace the following packages**
+  -  ros2_control framework
+  -  gazebo_ros2_contro
 
+-  Make sure to install these packages FROM SOURCE, and point to the correct branch otherwise, some problems could appear. Now you can clone our repository in your workspace and build the whole workspace. 
 
-   
-- Code <code>"ros2 launch articubot_one rsp.launch.py"</code> is used to launch a ROS2 launch file named <code>"rsp.launch.py"</code> within the <code>"articubot_one"</code> package. The launch file is responsible for starting the necessary nodes and configurations for the <code>"articubot_one"</code> robot.
+- **Now open a new terminal and write the following lines:**
+
+      cd ros2_ws
+      install/setup.bash
+      ros2 launch my_doosan_pkg my_doosan_gazebo.launch.py
   
-      ros2 launch articubot_one rsp.launch.py 
+- **Open another new terminal and write the following lines:**
+
+        cd ros2_ws
+        install/setup.bash
+        ros2 launch my_doosan_pkg my_doosan_rviz.launch.py
+
+- ****Yolo****
+
+- Now open a new terminal and write the following lines to launch <code>yolobot_gazebo yolobot_launch</code>
+
+      source yolobot/install/setup.bash
+      ros2 launch yolobot_gazebo yolobot_launch.py 
+- Now open another terminal and write the following lines for <code>Yolov8_Inference</code>
+
+      source yolobot/install/setup.bash
+      ros2 topic list
+      ros2 topic echo /Yolov8_Inference
+- Floowing with <code>RVIz</code>
+
+      rviz2
+
+- In another terminal run <code>yolobot_recognition yolov8_ros2_subscriber</code>
+  
+      source yolobot/install/setup.bash
+      ros2 run yolobot_recognition yolov8_ros2_subscriber.py 
 
 
 
