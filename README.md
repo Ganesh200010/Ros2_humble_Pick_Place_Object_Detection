@@ -2,7 +2,11 @@
 
 <img src="https://img.shields.io/badge/Ubuntu-22.04-orange.svg" alt="Ubuntu 22.04">
 <img src="https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/YOLO-v5-darkgreen?style=flat-square&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/YOLO-v5-darkgreen?style=flat-square&logo=Yolo&logoColor=white">
+<img src="https://img.shields.io/badge/Gazebo-v11-darkorange?style=flat-square&logo=&logoColor=white">
+<img src="https://img.shields.io/badge/Rviz-v2-darkgreen?style=flat-square&logo=&logoColor=white">
+
+
 
 </p>
 
